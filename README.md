@@ -32,15 +32,18 @@ Compared covariance matrix estimators through rolling out-of-sample testing on a
 - Found a clear trade-off between covariance forecast accuracy and numerical stability
 
 `Python` `Portfolio Optimization` `Covariance Estimation` `Risk Modeling`
-### High-Frequency Trading Anomaly Detection
-Developed an anomaly-detection framework for high-frequency limit-order-book data.
+### [HFT Spoofing Detection](https://github.com/hitakshi2003/hft_spoofing_detection)
 
-- Analyzed approximately 1.8 million market events
-- Implemented the analytical pipeline using NumPy
-- Evaluated model performance using ROC-AUC
-- Explored market microstructure patterns in high-frequency financial data
+Built a semi-supervised anomaly-detection framework for identifying potential spoofing behavior in high-frequency limit-order-book data across **1.8M+ market events**.
 
-`Python` `NumPy` `Market Microstructure` `Machine Learning`
+- Engineered **38 market microstructure and order-flow features**
+- Implemented **Isolation Forest, Gaussian Mixture Model, and PCA reconstruction error from scratch using NumPy**
+- Combined complementary detectors through rank-normalized ensemble scoring
+- Improved detection through parent-order burst aggregation
+- Achieved **0.99425 public ROC-AUC** versus a **0.88 competition baseline**
+- Investigated dataset leakage and distinguished predictive artifacts from generalizable market signals
+
+`Python` `NumPy` `High-Frequency Trading` `Market Microstructure` `Anomaly Detection`
 
 ### Algorithmic Trading & Fixed Income
 Applied quantitative techniques to financial time series and systematic trading problems.
