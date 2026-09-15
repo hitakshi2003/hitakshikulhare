@@ -22,16 +22,16 @@ I enjoy applying **financial theory, statistical methods, and programming** to s
 
 ## 📊 Featured Projects
 
-### Personalized Portfolio Construction
-Developed quantitative methods for personalized portfolio construction, including covariance matrix estimation and out-of-sample evaluation.
+### [Covariance Matrix Estimation for Portfolio Risk](https://github.com/hitakshi2003/portfolio_covariance_estimation)
 
-- Compared Empirical, Ledoit-Wolf, OAS, and Exponentially Weighted covariance estimators
-- Conducted rolling out-of-sample analysis
-- Evaluated forecast accuracy and numerical conditioning
-- Applied covariance estimates to portfolio construction and risk analysis
+Compared covariance matrix estimators through rolling out-of-sample testing on a diversified ETF universe.
 
-`Python` `Portfolio Optimization` `Risk Modeling` `Quantitative Research`
+- Evaluated Empirical, Exponentially Weighted, Ledoit-Wolf, and OAS estimators
+- Implemented 252-day training and 21-day out-of-sample rolling evaluation
+- Compared forecast accuracy, numerical conditioning, and portfolio risk forecasts
+- Found a clear trade-off between covariance forecast accuracy and numerical stability
 
+`Python` `Portfolio Optimization` `Covariance Estimation` `Risk Modeling`
 ### High-Frequency Trading Anomaly Detection
 Developed an anomaly-detection framework for high-frequency limit-order-book data.
 
